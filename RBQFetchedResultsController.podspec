@@ -16,6 +16,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Roobiq/RBQFetchedResultsController.git", :tag => "v#{s.version}", :submodules => true }
   s.source_files  = "RBQFetchedResultsController/**/*.{h,m}"
   s.requires_arc = true
-  s.dependency "Realm", ">=0.95"
 
 end
