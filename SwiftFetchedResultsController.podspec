@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.dependency "RealmSwift", ">=2.1.1"
   s.dependency "RBQFetchedResultsController", ">=#{s.version}"
-  s.dependency "SafeRealmObject"
+  s.dependency "SafeRealmObject", :git => "https://github.com/asqar/RBQSafeRealmObject.git"
 end
